@@ -92,7 +92,7 @@ export default function Home() {
 
       <section className="w-full px-5 py-10">
         <h2>Games List</h2>
-        <div className="flex flex-wrap flex gap-10">
+        <div className="flex flex-wrap gap-10">
           {fetchdata && fetchdata.length > 0 ? (
             fetchdata.map((game) => (
               <div key={game.id} className="border-2 p-5 w-60 flex flex-col justify-between">
